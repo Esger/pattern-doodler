@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+html, body{
+	font:12px trebuchet MS;
+	line-height:20px;
+	color:#404000;
+	height:100%;
+	background-image:url(../img/salamander.gif);
+	background-position:50%;
+}
+#container{
+	margin:0 auto;
+	width:750px;
+	padding:50px 0 50px 50px;
+	background-color:#cc0;
+	min-height:100%;
+}
+h1{
+	font-size:24px;
+	line-height:24px;
+}
+h2, h3{
+	margin-top:18px;
+}
+p{
+	font-size:14px;
+}
+a{
+	outline:none;
+	color:#404000;
+}
+.intro{
+	font-weight:bold;
+}
+canvas {
+	border:0px solid black;
+	background-color:white;
+	margin-bottom:18px;
+	color:#404000;
+	font:8px bold 'trebuchet MS';	
+}
+#thetoroid{
+	margin-top:18px;
+	cursor:crosshair;
+}
+#thetoroid.pendown{
+	cursor:crosshair;
+}
+#story{
+	width:700px;
+	padding:12px 0 12px 0;
+	clear:left;
+}
+#controls{
+	width:700px;
+	left:50px;
+	margin-bottom:12px;
+}
+#controls ul{
+	list-style-type:none;
+}
+#controls ul li{
+	float:left;
+}
+#controls label{
+	display:block;
+	font-size:10px;
+	font-weight:bold;
+	text-transform:uppercase;
+	letter-spacing:1px;
+}
+#controls select, #controls input{
+	width:75px;
+	margin-right:5px;
+}
+#controls a{
+	display:block;
+	float:left;
+	width:24px;
+	height:21px;
+	background-image:url(../img/buttons.gif);
+	background-repeat:no-repeat;
+}
+a.toggler:hover{
+	color:white;
+}
+
+/* AddThis */
+.addThis{
+	position:fixed;
+	left:2px;
+	top:2px;
+}
+.addthis_toolbox,
+.addthis_toolbox a{
+	display:inline;
+	float:right;
+}
